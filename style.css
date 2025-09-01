@@ -1,0 +1,107 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+header {
+    margin: 44px 0 144px 42px;
+}
+
+.link-h {
+    color: #17233D;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.875px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.botao-1 {
+    color: #FFF;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.img-logo{
+    width: 500px;
+    height: 450px;
+    margin-left: 124px;
+    margin-top: 95px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 84px;
+    
+    
+}
+
+
+
+h1{
+    color: #161A49;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.596px;
+    line-height: 82px
+    
+    
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin-top: 10px;
+    margin-bottom: 37;
+}
+
+.botao-2 {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 32px;
+    margin-left: 712px;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 250px;
+}
+ 
+ /*pseudo classes*/
+
+li:first-child{
+    color: red;
+}
+
+@media screen and (max-width: 375px){
+       header{
+           margin: 8px 8px 6px 6px;
+           text-align: center;
+       }
+      
+     .link-h{
+           margin: 8px 8px 6px 6px;
+           text-align: center;
+     }
+   
+    .img-logo{
+        position: static;
+        max-width: 10px;
+    }
+}
